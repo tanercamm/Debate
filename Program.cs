@@ -10,7 +10,6 @@ using ReligionDebate;
 #pragma warning disable SKEXP0001
 
 var apikey = "???secret-key???";
-
 var kernelBuilder = Kernel.CreateBuilder()
     .AddOpenAIChatCompletion("gpt-4o-mini", apikey);
 
